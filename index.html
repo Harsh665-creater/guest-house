@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingsukh Guest House</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="container header-content">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <i class="fas fa-bed bed-icon"></i>
+                <span>Kingsukh Guest House</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#rooms">Rooms</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+
+            <!-- Book Now Button -->
+            <a class="book-now-button desktop-only">Book Now</a>
+
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button id="mobile-menu-button" class="mobile-menu-button">
+                <i class="fas fa-bars menu-icon"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Menu (Hidden by default) -->
+        <nav id="mobile-menu" class="mobile-nav-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#contact" class="book-now-button">Book Now</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Your Perfect Stay Awaits</h1>
+                <p>Experience comfort and hospitality at Kingsukh Guest House, your serene escape.</p>
+                <a href="#rooms" class="hero-button">Explore Our Rooms</a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="section about-section">
+            <div class="container about-content">
+                <div class="about-image-wrapper">
+                    <img src="Assets/header.jpg" alt="Guest House Interior">
+                </div>
+                <div class="about-text-content">
+                    <h2>About Kingsukh Guest House</h2>
+                    <p>
+                        Welcome to Kingsukh Guest House, where comfort meets convenience. Nestled in a peaceful location, our guest house offers a warm and inviting atmosphere for both leisure and business travelers. We pride ourselves on providing exceptional service and a memorable stay.
+                    </p>
+                    <p>
+                        Our beautifully designed rooms, state-of-the-art amenities, and dedicated staff ensure that every guest feels right at home. Discover the true essence of hospitality with us.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services/Amenities Section -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <h2>Our Amenities</h2>
+                <div class="amenities-grid">
+                    <!-- Amenity 1 -->
+                    <div class="amenity-item">
+                        <i class="fas fa-wifi amenity-icon"></i>
+                        <h3>Free Wi-Fi</h3>
+                        <p>Stay connected with our high-speed internet access available throughout the property.</p>
+                    </div>
+                    <!-- Amenity 2 -->
+                    <div class="amenity-item">
+                        <i class="fas fa-parking amenity-icon"></i>
+                        <h3>Free Parking</h3>
+                        <p>Complimentary and secure parking for all our guests.</p>
+                    </div>
+                    <!-- Amenity 3 -->
+                    <div class="amenity-item">
+                        <i class="fas fa-mug-hot amenity-icon"></i>
+                        <h3>Breakfast Included</h3>
+                        <p>Enjoy a delicious breakfast to start your day, on us.</p>
+                    </div>
+                    <!-- Amenity 4 -->
+                    <div class="amenity-item">
+                        <i class="fas fa-wind amenity-icon"></i>
+                        <h3>Air Conditioning</h3>
+                        <p>All rooms are equipped with modern air conditioning for your comfort.</p>
+                    </div>
+                    <!-- Amenity 5 -->
+                    <div class="amenity-item">
+                        <i class="fas fa-utensils amenity-icon"></i>
+                        <h3>Restaurant</h3>
+                        <p>Savor delectable dishes at our in-house restaurant.</p>
+                    </div>
+                    <!-- Amenity 6 -->
+                    <div class="amenity-item">
+                        <i class="fas fa-hands-helping amenity-icon"></i>
+                        <h3>24/7 Front Desk</h3>
+                        <p>Our friendly staff is always available to assist you, day or night.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rooms Section -->
+        <section id="rooms" class="section rooms-section">
+            <div class="container">
+                <h2>Our Comfortable Rooms</h2>
+                <div class="rooms-grid">
+                    <!-- Room Type 1: Standard Room -->
+                    <div class="room-card">
+                        <img src="Assets/small.jpg" alt="Standard Room">
+                        <div class="room-card-content">
+                            <h3>Standard Room</h3>
+                            <p>
+                                Cozy and comfortable, perfect for solo travelers or couples.
+                            </p>
+                            <ul class="room-features">
+                                <li>
+                                    <i class="fas fa-check-circle check-icon"></i>
+                                    Double Bed
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle check-icon"></i>
+                                    Attached Bathroom
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle check-icon"></i>
+                                    Air Conditioning
+                                </li>
+                            </ul>
+                            <div class="room-footer">
+                                <span class="price">1200 <span class="per-night">/ night</span></span>
+                                <a href="#contact" class="book-now-button">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Room Type 2: Deluxe Room -->
+                    <div class="room-card">
+                        <img src="Assets/room1.jpg" alt="Deluxe Room">
+                        <div class="room-card-content">
+                            <h3>Deluxe Room</h3>
+                            <p>
+                                Spacious and elegant, offering more comfort and amenities for a relaxed stay.
+                            </p>
+                            <ul class="room-features">
+                                <li>
+                                    <i class="fas fa-check-circle check-icon"></i>
+                                    King Size Bed
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle check-icon"></i>
+                                    En-suite Bathroom
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle check-icon"></i>
+                                    Private Balcony
+                                </li>
+                            </ul>
+                            <div class="room-footer">
+                                <span class="price">1500 <span class="per-night">/ night</span></span>
+                                <a href="#contact" class="book-now-button">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Room Type 3: Family Suite -->
+                    <div class="room-card">
+                        <img src="Assets/large.jpg" alt="Family Suite">
+                        <div class="room-card-content">
+                            <h3>Family Suite</h3>
+                            <p>
+                                Ideal for families, featuring multiple beds and ample space for everyone.
+                            </p>
+                            <ul class="room-features">
+                                <li>
+                                    <i class="fas fa-check-circle check-icon"></i>
+                                    2 Bedrooms
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle check-icon"></i>
+                                    Living Area
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle check-icon"></i>
+                                    Kitchenette
+                                </li>
+                            </ul>
+                            <div class="room-footer">
+                                <span class="price">2000 <span class="per-night">/ night</span></span>
+                                <a href="#contact" class="book-now-button">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+                <h2>Our Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="Assets/1.jpg" alt="Guest House View 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Assets/baranti.webp" alt="Guest House View 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Assets/palash.webp" alt="Guest House View 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Assets/mithonDam.webp" alt="Guest House View 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Assets/out.jpg" alt="Guest House View 5">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Assets/header.jpg" alt="Guest House View 6">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Assets/service.jpg" alt="Guest House View 7">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Assets/ayodhya.webp" alt="Guest House View 8">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section testimonials-section">
+            <div class="container">
+                <h2>What Our Guests Say</h2>
+                <div class="testimonials-grid">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            "An absolutely delightful stay! The staff were incredibly welcoming and the rooms were spotless and very comfortable. Highly recommend Kingsukh Guest House for a peaceful getaway."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://placehold.co/60x60/808080/ffffff?text=JD" alt="Guest Photo" class="author-photo">
+                            <div>
+                                <p class="author-name">Jane Doe</p>
+                                <p class="author-title">Family Traveler</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            "Excellent service and fantastic amenities. The location was perfect, and I enjoyed every moment of my business trip here. Will definitely be back!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://placehold.co/60x60/808080/ffffff?text=AS" alt="Guest Photo" class="author-photo">
+                            <div>
+                                <p class="author-name">Alex Smith</p>
+                                <p class="author-title">Business Traveler</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container contact-content-wrapper">
+                <h2>Get in Touch</h2>
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-card">
+                        <h3>Send Us a Message</h3>
+                        <form class="contact-form"  onsubmit="alert('This is a student project. Message not actually sent.'); return false;" accept="#">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="you@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Tell us about your inquiry..."></textarea>
+                            </div>
+                            <button type="submit" class="submit-button">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information & Map -->
+                    <div class="contact-info-wrapper">
+                        <div class="contact-info-card">
+                            <h3>Contact Information</h3>
+                            <div class="contact-details">
+                                <p>
+                                    <i class="fas fa-map-marker-alt contact-icon"></i>
+                                    Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156
+                                </p>
+                                <p>
+                                    <i class="fas fa-phone contact-icon"></i>
+                                    +91 9007062180
+                                </p>
+                                <p>
+                                    <i class="fas fa-envelope contact-icon"></i>
+                                    info@kingsukhguesthouse.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="map-card">
+                            <h3>Our Location</h3>
+                            <div class="map-iframe-container">
+                                <!-- Placeholder for Google Map iframe -->
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7313.003491353379!2d86.85979!3d23.586332!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6e3fdd3ff9ebb%3A0x517a57e3f93c1807!2z4KSV4KS_4KSo4KWN4KSX4KWN4KS44KWB4KSWIOCkl-Clh-CkuOCljeCknyDgpLngpL7gpIngpLg!5e0!3m2!1shi!2sin!4v1750421468691!5m2!1shi!2sin"
+                                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="container footer-content-grid">
+            <!-- About -->
+            <div>
+                <h3>Kingsukh Guest House</h3>
+                <p>
+                    Providing a peaceful and comfortable stay for all our guests. Experience true hospitality with us.
+                </p>
+            </div>
+            <!-- Quick Links -->
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- Contact Info & Social Media -->
+            <div>
+                <h3>Contact Us</h3>
+                <p>
+                    <i class="fas fa-map-marker-alt footer-icon"></i>
+                    123 Guest House Road, Serene City
+                </p>
+                <p>
+                    <i class="fas fa-phone footer-icon"></i>
+                    +1 (555) 123-4567
+                </p>
+                <p>
+                    <i class="fas fa-envelope footer-icon"></i>
+                    info@kingsukhguesthouse.com
+                </p>
+                <div class="social-links">
+                    <a href="#">
+                        <i class="fab fa-facebook-f social-icon"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter social-icon"></i>
+                    </a>
+                    <a href="https://www.instagram.com/kingsukhguesthouse?igsh=YWo4Z2dmM3Jodm40">
+                        <i class="fab fa-instagram social-icon"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin-in social-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Kingsukh Guest House. All rights reserved.</p>
+            <p style="font-size: 0.9rem; color: gray; font-weight: 600;">
+  This website is a <strong>student project</strong> created for educational purposes only. It does <u>not represent the actual Kingsukh Guest House business</u> and does not collect or process any real customer information.
+</p>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
